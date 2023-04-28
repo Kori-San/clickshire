@@ -1,6 +1,12 @@
 # Clickshire
 A World of Warcraft inspired Idle-Clicker
 
+# Quick start
+```bash
+make build start
+```
+You can then access the app via 'https://localhost'
+
 # Makefile Rules
 - ***all*** - Execute the start rule.
 - ***start*** - Start Clickshire's container. The container must be built before using the 'build' rule.
