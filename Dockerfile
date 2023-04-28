@@ -2,7 +2,7 @@
 FROM nginx:1.23.4-bullseye
 
 # Copying the files from the local directory to the docker container.
-COPY ./conf/keys/ /etc/letsencrypt/live/clickshire.com/
+COPY ./conf/keys/ /etc/letsencrypt/live/clickshire.io/
 COPY ./conf/nginx/ /etc/nginx/
 COPY ./src/ /opt/clickshire/
 
